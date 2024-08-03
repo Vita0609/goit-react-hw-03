@@ -1,10 +1,5 @@
 .contactList {
-    list-style: none;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-}
-
-.contactItem {
-    border: 1px solid #0c0808;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }

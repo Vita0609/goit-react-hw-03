@@ -1,21 +1,21 @@
-.searchBox {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    gap: 5px;
+.inputWrap {
+    max-width: 320px;
+    margin: 20px 0;
 }
 
-.searchLabel {
-    display: flex;
+.inputLabel {
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
 }
 
-.search {
-    display: flex;
-    padding: 2px 20px 2px 8px;
-    font-size: 18px;
+.input {
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 5px;
-    background-color: #fff;
-    color: black;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
 }
