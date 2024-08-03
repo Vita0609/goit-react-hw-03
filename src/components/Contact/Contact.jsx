@@ -1,7 +1,7 @@
 import css from "./Contact.module.css";
 import { HiUser, HiPhone } from "react-icons/hi2";
 
-export default function ContactList({ data: { id, name, number }, onDelete }) {
+export default function ContactList({data: {id, name, number}, onDelete}) {
     return (
         <div className={css.contactCard}>
             <div className={css.contacts}>
